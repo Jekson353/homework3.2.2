@@ -20,4 +20,23 @@
     <string name="letter_e">E</string>
     <string name="letter_n">N</string>
     <string name="letter_k">K</string>
+    <string name="x_3">X^3</string>
+    <string name="skr">(</string>
+    <string name="skl">)</string>
+    <string name="n">n!</string>
+    <string name="del">del</string>
+    <string name="ser">=</string>
+    <string name="plmin">+/-</string>
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="_10_x">10^x</string>
+    <string name="x_y">x^y</string>
+    <string name="mn">X</string>
+    <string name="_1_x">1/x</string>
+    <string name="clear">C</string>
+    <string name="mod_x">|x|</string>
+    <string name="normal">Обычн</string>
+    <string name="inz">Инж</string>
 </resources>

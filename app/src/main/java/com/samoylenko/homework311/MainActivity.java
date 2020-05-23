@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btn9;
     private Button btn0;
     private Button point;
+    private Button inz;
+    private Button normal;
     private TextView textView;
 
     @Override
@@ -41,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         btn9 = findViewById(R.id.button9);
         btn0 = findViewById(R.id.button0);
         point = findViewById(R.id.button);
+        inz = findViewById(R.id.button_inz);
+        normal = findViewById(R.id.button_normal);
         textView = findViewById(R.id.textView);
 
         //один обработчик на все кнопки
@@ -99,6 +103,22 @@ public class MainActivity extends AppCompatActivity {
         btn9.setOnClickListener(oclBtn);
         btn0.setOnClickListener(oclBtn);
         point.setOnClickListener(oclBtn);
+
+        inz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                findViewById(R.id.linear13).setVisibility(View.GONE);
+                findViewById(R.id.linear14).setVisibility(View.VISIBLE);
+            }
+        });
+
+        normal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                findViewById(R.id.linear14).setVisibility(View.GONE);
+                findViewById(R.id.linear13).setVisibility(View.VISIBLE);
+            }
+        });
 
     }
 
